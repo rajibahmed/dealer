@@ -5,7 +5,7 @@ pipeline {
         stage('Build') {
             steps {
                 echo 'Building..'
-                echo uname -a
+                sh -c 'uname -a'
             }
         }
         stage('Test') {
