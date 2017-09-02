@@ -4,8 +4,7 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                echo 'Building..'
-                sh -c 'uname -a'
+              echo 'something'
             }
         }
         stage('Test') {
